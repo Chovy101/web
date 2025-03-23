@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarte - เครื่องสำอาง</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ตั้งค่าทั่วไป */
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f9f5f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #7d4b94;
+        }
+
+        .highlight {
+            color: #9b59b6;
+            font-weight: bold;
+        }
+
+        .brand-section {
+            text-align: center;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #9b59b6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e8d5f5;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        .instagram {
+            font-weight: bold;
+            color: #833ab4;
+        }
+
+        /* ปุ่มย้อนกลับ */
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 18px;
+            color: white;
+            background-color: #9b59b6;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #7d4b94;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button onclick="goBack()" class="back-button">⬅ กลับไปหน้าแรก</button>
+
+        <div class="brand-section">
+            <h1>6. เครื่องสำอาง <span class="highlight">Tarte</span></h1>
+
+            <img src="https://img.grouponcdn.com/vouchercloud/wD56FvyJ7aCiyzgTSiAi3iFesnZ/wD-628x428" 
+                 alt="เครื่องสำอาง Tarte" class="main-image">
+
+            <p><strong>เว็บไซต์อย่างเป็นทางการ:</strong> <span class="highlight">Tarte</span></p>
+            <p><strong>ลิงค์เว็บไซต์:</strong> 
+                <a href="https://www.tartecosmetics.com/" target="_blank">https://www.tartecosmetics.com/</a>
+            </p>
+
+            <h2>Instagram:</h2>
+            <p>รหัส: <a href="https://www.instagram.com/tartecosmetics" target="_blank" class="instagram">@tartecosmetics</a></p>
+            <p>ผู้ติดตาม: 8 ล้าน</p>
+
+            <h2>สินค้ายอดนิยม:</h2>
+            <ul>
+                <li>❤ Shape Tape Concealer</li>
+                <li>❤ Amazonian Clay 12-Hour Blush</li>
+                <li>❤ Lights, Camera, Lashes Mascara</li>
+                <li>❤ Tartelette In Bloom Palette</li>
+                <li>❤ Maracuja Oil</li>
+            </ul>
+        </div>
+
+        <h3>เกี่ยวกับ Tarte</h3>
+        <p>
+            Tarte Cosmetics ก่อตั้งขึ้นในปี 1999 โดย Maureen Kelly โดยมีแนวคิดในการสร้างเครื่องสำอางที่มีส่วนผสมจากธรรมชาติและไม่มีสารที่เป็นอันตราย
+            โดยแบรนด์นี้ได้รับความนิยมอย่างรวดเร็วเพราะเครื่องสำอางที่มีคุณภาพสูงและมีส่วนผสมจากธรรมชาติที่เป็นมิตรกับผิว
+        </p>
+
+        <p>
+            Tarte โดดเด่นในเรื่องของการใช้ส่วนผสมจากธรรมชาติ เช่น Amazonian Clay และ Maracuja Oil ในผลิตภัณฑ์ของตน
+            ซึ่งช่วยให้ผิวดูสุขภาพดีและชุ่มชื้น
+        </p>
+
+        <p>
+            ผลิตภัณฑ์ที่ได้รับความนิยมอย่าง <strong>Shape Tape Concealer</strong> ที่มีความคุมมันดีเยี่ยมและสามารถปกปิดได้อย่างเนียน
+            ทำให้ Tarte กลายเป็นแบรนด์ที่ชื่นชอบในหมู่ผู้ที่รักการแต่งหน้า
+        </p>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "Home.html"; // แก้เป็น URL ของหน้าแรก
+        }
+    </script>
+
+</body>
+</html>

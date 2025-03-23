@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenty Beauty - เครื่องสำอางระดับโลก</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ตั้งค่าทั่วไป */
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #d4af37;
+        }
+
+        .highlight {
+            color: #b8860b;
+            font-weight: bold;
+        }
+
+        .brand-section {
+            text-align: center;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #b8860b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #fde68a;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        .instagram {
+            font-weight: bold;
+            color: #d4a760;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 18px;
+            color: white;
+            background-color: #d4af37;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #b8860b;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button onclick="goBack()" class="back-button">⬅ กลับไปหน้าแรก</button>
+
+        <div class="brand-section">
+            <h1>3. เครื่องสำอาง <span class="highlight">Fenty Beauty</span></h1>
+
+            <img src="https://images.prismic.io/lvmh-com/27d967c9-e104-49d9-ad80-1df47fd96eb4_fentybeauty_lvmh_brandpage_slideshow_2218x1296_Fenty-Face.jpg?auto=compress,format" 
+                 alt="เครื่องสำอาง Fenty Beauty" class="main-image">
+
+            <p><strong>เว็บไซต์อย่างเป็นทางการ:</strong> <span class="highlight">Fenty Beauty</span></p>
+            <p><strong>ลิงค์เว็บไซต์:</strong> 
+                <a href="https://www.fentybeauty.com/" target="_blank">https://www.fentybeauty.com/</a>
+            </p>
+
+            <h2>Instagram:</h2>
+            <p>รหัส: <a href="https://www.instagram.com/fentybeauty" target="_blank" class="instagram">@fentybeauty</a></p>
+            <p>ผู้ติดตาม: 13 ล้าน</p>
+
+            <h2>สินค้ายอดนิยม:</h2>
+            <ul>
+                <li>❤ Pro Filt'r Soft Matte Longwear Foundation</li>
+                <li>❤ Killawatt Freestyle Highlighter</li>
+                <li>❤ Gloss Bomb Universal Lip Luminizer</li>
+                <li>❤ Sun Stalk'r Instant Warmth Bronzer</li>
+                <li>❤ Match Stix Matte Skinstick</li>
+            </ul>
+        </div>
+
+        <h3>เกี่ยวกับ Fenty Beauty</h3>
+        <p>
+            Fenty Beauty ก่อตั้งโดย Rihanna ในปี 2017 โดยมีเป้าหมายในการสร้างเครื่องสำอางที่สามารถตอบสนองความต้องการของทุกคนทั้งในแง่ของสีผิวและความต้องการส่วนบุคคล
+        </p>
+
+        <p>
+            Fenty Beauty เป็นที่รู้จักจากการนำเสนอผลิตภัณฑ์ที่เหมาะกับทุกสีผิว โดยเฉพาะ <strong>Pro Filt'r Soft Matte Longwear Foundation</strong> 
+            ที่มีเฉดสีมากถึง 50 เฉด ซึ่งตอบโจทย์ความหลากหลายทางสีผิว
+        </p>
+
+        <p>
+            แบรนด์นี้ยังมุ่งเน้นในเรื่องของการสร้างความมั่นใจและการยอมรับในความงามที่หลากหลาย และเป็นผู้นำในเรื่องของการสร้างมาตรฐานใหม่ในอุตสาหกรรมเครื่องสำอาง
+        </p>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "Home.html"; // เปลี่ยนเป็น URL ของหน้าแรกของคุณ
+        }
+    </script>
+
+</body>
+</html>

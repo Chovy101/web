@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natasha Denona - เครื่องสำอาง</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ตั้งค่าทั่วไป */
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f9f5f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #a86d5d;
+        }
+
+        .highlight {
+            color: #d43f57;
+            font-weight: bold;
+        }
+
+        .brand-section {
+            text-align: center;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #b75d69;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #ffe5ec;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        .instagram {
+            font-weight: bold;
+            color: #e4405f;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 18px;
+            color: white;
+            background-color: #d43f57;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #b73248;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button onclick="goBack()" class="back-button">⬅ กลับไปหน้าแรก</button>
+
+        <div id="natasha_denona" class="brand-section">
+            <h1>10. เครื่องสำอาง <span class="highlight">Natasha Denona</span></h1>
+
+            <img src="https://img.youtube.com/vi/McBSq2rqWog/maxresdefault.jpg" 
+                 alt="เครื่องสำอาง Natasha Denona" class="main-image">
+
+            <p><strong>เว็บไซต์อย่างเป็นทางการ:</strong> <span class="highlight">Natasha Denona</span></p>
+            <p><strong>ลิงค์เว็บไซต์:</strong> 
+                <a href="https://www.natashadenona.com/" target="_blank">https://www.natashadenona.com/</a>
+            </p>
+
+            <h2>Instagram:</h2>
+            <p>รหัส: <a href="https://www.instagram.com/natashadenona" target="_blank" class="instagram">@natashadenona</a></p>
+            <p>ผู้ติดตาม: 1.5 ล้าน</p>
+
+            <h2>สินค้ายอดนิยม:</h2>
+            <ul>
+                <li>❤ Glam Palette</li>
+                <li>❤ Bronze Eyeshadow Palette</li>
+                <li>❤ Mini Retro Palette</li>
+                <li>❤ Face Glow Foundation</li>
+                <li>❤ I Need a Nude Lipstick</li>
+            </ul>
+        </div>
+
+        <h3>เกี่ยวกับ Natasha Denona</h3>
+        <p>
+            Natasha Denona เป็นแบรนด์ที่ก่อตั้งโดยช่างแต่งหน้าชื่อเดียวกัน ซึ่งมีชื่อเสียงด้านพาเลตต์อายแชโดว์คุณภาพสูงและเม็ดสีแน่น
+            ผลิตภัณฑ์ของแบรนด์นี้เหมาะสำหรับทั้งมืออาชีพและมือใหม่ที่ต้องการแต่งหน้าระดับมืออาชีพ
+        </p>
+
+        <p>
+            ผลิตภัณฑ์เด่นของ Natasha Denona คือ <strong>Glam Palette</strong> และ <strong>Bronze Eyeshadow Palette</strong> ที่มีเฉดสีที่หรูหราและเกลี่ยง่าย
+            นอกจากนี้ยังมีลิปสติก <strong>I Need a Nude Lipstick</strong> ที่เป็นลิปสีนู้ดที่เหมาะกับทุกสีผิว
+        </p>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "Home.html"; // เปลี่ยนเป็น URL ของหน้าแรกของคุณ
+        }
+    </script>
+
+</body>
+</html>

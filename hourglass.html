@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hourglass - เครื่องสำอาง</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f9f5f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #8B5E3B;
+        }
+
+        .highlight {
+            color: #A5673F;
+            font-weight: bold;
+        }
+
+        .brand-section {
+            text-align: center;
+        }
+
+        .main-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #8B5E3B;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #F3E5D8;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        .instagram {
+            font-weight: bold;
+            color: #B87333;
+        }
+
+        .impact-section {
+            background: #F3E5D8;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 18px;
+            color: white;
+            background-color: #A5673F;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background-color: #8B5E3B;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button onclick="goBack()" class="back-button">⬅ กลับไปหน้าแรก</button>
+
+        <div class="brand-section">
+            <h1>2. เครื่องสำอาง <span class="highlight">Hourglass</span></h1>
+
+            <img src="https://www.flannels.ie/images/marketing/hourglass-brandroom-flannels-mobile.jpg" 
+                 alt="เครื่องสำอาง Hourglass" class="main-image">
+
+            <p><strong>เว็บไซต์อย่างเป็นทางการ:</strong> <span class="highlight">Hourglass</span></p>
+            <p><strong>ลิงค์เว็บไซต์:</strong> 
+                <a href="https://www.hourglasscosmetics.com/" target="_blank">https://www.hourglasscosmetics.com/</a>
+            </p>
+
+            <h2>Instagram:</h2>
+            <p>รหัส: <a href="https://www.instagram.com/hourglasscosmetics" target="_blank" class="instagram">@hourglasscosmetics</a></p>
+            <p>ผู้ติดตาม: 1.5 ล้าน</p>
+
+            <h2>สินค้ายอดนิยม:</h2>
+            <ul>
+                <li>❤ Veil Translucent Setting Powder</li>
+                <li>❤ Ambient Lighting Powder</li>
+                <li>❤ Arch Brow Sculpting Pencil</li>
+                <li>❤ Vanish Seamless Finish Foundation Stick</li>
+                <li>❤ Caution Extreme Lash Mascara</li>
+            </ul>
+        </div>
+
+        <h3>เกี่ยวกับ Hourglass</h3>
+        <p>
+            Hourglass ก่อตั้งขึ้นในปี 2004 โดย Carisa Janes และมุ่งเน้นไปที่การผลิตเครื่องสำอางที่หรูหราและมีคุณภาพสูง 
+            แบรนด์นี้เน้นที่การสร้างผลิตภัณฑ์ที่ให้ผลลัพธ์ที่สมบูรณ์แบบในทุกๆ ด้าน
+        </p>
+
+        <p>
+            หนึ่งในสินค้าที่ได้รับความนิยมมากคือ <strong>Veil Translucent Setting Powder</strong> 
+            ซึ่งช่วยให้ผิวหน้าดูเรียบเนียนและคุมมันได้ดีตลอดวัน 
+            และ <strong>Ambient Lighting Powder</strong> ที่ช่วยให้ผิวดูเปล่งปลั่งและกระจ่างใส
+        </p>
+
+        <div class="impact-section">
+            🌱 <strong>Hourglass & สิ่งแวดล้อม</strong>  
+            Hourglass สนับสนุนผลิตภัณฑ์ที่ไม่ทำลายสิ่งแวดล้อมและใช้วัสดุที่ยั่งยืนเพื่อลดผลกระทบต่อธรรมชาติ
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "Home.html"; // เปลี่ยนเป็น URL หน้าแรกของคุณ
+        }
+    </script>
+
+</body>
+</html>
